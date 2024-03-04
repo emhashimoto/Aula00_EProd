@@ -1,6 +1,6 @@
 ---
-title: "MA13B - Probabilidade e Estatística"
-subtitle: "Apresentação da Disciplina &#9749;" 
+title: "MAT013 - Probabilidade e Estatística"
+subtitle: "Apresentação da Unidade Curricular &#9749;" 
 author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
 output:
   xaringan::moon_reader:
@@ -33,127 +33,36 @@ div {
 }
 </style>
 
-# Formação &#127891;
-
-&#10004; Bacharel em Estatística
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
-knitr::include_graphics('figuras/fct.jpg')
-```
-
-<br>
-
---
-
-&#10004; Mestrado e Doutorado em Ciências
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '45%'}
-knitr::include_graphics('figuras/esalq.jpg')
-```
-
----
-
-# Universidades &#127979;
-
-&#10004; Unoeste
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
-knitr::include_graphics('figuras/logo_unoeste.jpg')
-```
-
-<br>
-
-&#10004; UEM
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
-knitr::include_graphics('figuras/logo_uem.jpg')
-```
-
-<br>
-
-&#10004; UTFPR
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
-knitr::include_graphics('figuras/utfpr.jpg')
-```
-
----
-
-# Apresentar-se
-
-- Nome, o curso
-
-<br>
-
-- Porque você precisa estudar Estatística?
-
-```{r , echo=FALSE, fig.align = 'right', out.width = '40%'}
-knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.gif')
-```
-
----
-
-# Porque estudar Estatística &#128526;
-
-<!--acrescentar embed no link dos videos-->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wV0Ks7aS7YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
 # Importância da Estatística para Engenharia de Produção &#129327;
 
-&#10004; **Planejamento e Controle da Produção**
+As Unidades Curriculares a seguir tem a **Estatística** com pré-requisito
 
---
-
-- Previsão de demanda
-
---
-
-- Indicadores, métricas e estatística de produção
+&#10004; **Ciências de Dados**
 
 --
 
 <br>
 
-&#10004; **Controle Estatístico do Processo**
-
---
-
-- Medidas de especificação
-
---
-
-- Gráfico de controles
-
----
-&#10004; **Pesquisa Operacional**
-
---
-
-- Modelos probabilísticos
-
---
-
-- Cálculo de ponto ótimo
+&#10004; **Controle Estatístico da Qualidade**
 
 --
 
 <br>
 
-&#10004; **Análise de confiabilidade**
+&#10004; **Gestão da Manutenção**
 
 --
 
-- Distribuições de probabilidade
+<br>
+
+&#10004; **Simulação de Sistemas Discretos**
 
 ---
 
 # Objetivo da disciplina &#127919;
 
 <div id="caixa">
- <div>O objetivo é proporcionar aos alunos de graduação em Engenharia de Produção uma introdução aos <font color="#0066cc">conceitos de estatística</font> utilizados na análise de dados, bem como o desenvolvimento da capacidade de <font color="#0066cc">interpretar os resultados</font> e estabelecer uma linguagem comum entre o Engenheiro e o Estatístico.</div>
+ <div>Desenvolver uma compreensão sólida em <font color="#0066cc">Estatística</font> para aplicação nas Unidades Curriculares: <font color="#0066cc">Ciências de Dados, Controle Estatístico da Qualidade, Gestão da Manutenção e Simulação de Sistemas Discretos</font>. Visando fortalecer o raciocínio lógico, crítico e analítico necessários para interpretar situações cotidianas e estabelecer relações causais entre fenômenos.</div>
 </div>
 
 <br>
@@ -162,9 +71,9 @@ knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.
 Horário da Aula &#9200;
 ]
 .pull-right[
-- Segunda-feira das 19:30--21:10
+- Segunda-feira das 20:20--22:00
 
-- Quinta-feira das 19:30--21:10 ~ 21:20--23:00
+- Terça-feira das 16:40--18:20
 ]
 
 <br>
@@ -175,9 +84,9 @@ Horário da Aula &#9200;
 Horário de Atendimento &#9200;
 ]
 .pull-right[
-- Quinta-feira das 16:40-18:20
+- Quarta-feira das 15:50-17:30
 
-- Sábado das 11:10-12:00 (*online*)
+- Quinta-feira das 09:10-10:00
 ]
 
 ---
@@ -216,14 +125,6 @@ knitr::include_graphics('figuras/fig4.jpg')
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
 knitr::include_graphics('figuras/fig5.jpg')
-```
-
----
-
-&#10004; Conceitos básicos de estatística experimental.
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics('figuras/fig6.jpg')
 ```
 
 ---
@@ -295,14 +196,14 @@ knitr::include_graphics('figuras/fig10.jpg')
 
 ---
 
-# Complementação de carga horária
+# Reposição de Aula
+
+Em função do acompanhamento do grupo BAJA para competição a ser realizado em São José dos Campos - SP na durante 19/03 à 25/03, a seguintes aulas precisam ser repostas:
 
 .pull-left[
-&#10004; Conceitos básicos de *software* `R`.  
+&#10004; 19/03 - Terça-feira  --> 16/03 - sábado
 
-&#10004; Quizzes sobre: distribuição de frequência (tabelas e representação gráfica), outras distribuições de probabilidade contínuas e teste de hipótese para proporção.
-
-&#10004; Leitura.
+&#10004; 25/03 - Segunda-feira --> 06/04 - sábado
 ]
 .pull-right[
 
@@ -327,18 +228,18 @@ Qualquer conflito com as datas das provas devem ser comunicados na **segunda sem
 .pull-left[
 <center>Prova 1</center>
 
-Segunda-feira, **05/09**
+Segunda-feira, **15/04**
 ]
 .pull-right[
 <center>Prova 2</center>
 
-Segunda-feira, **24/10**
+Segunda-feira, **20/05**
 ]
 
 .pull-left[
 <center>Prova 3</center>
 
-Segunda-feira, **28/11**
+Segunda-feira, **24/06**
 ]
 .pull-right[
 ]
@@ -354,7 +255,7 @@ No caso do aluno perder, **por motivo de doença ou força maior**, alguma avali
 .pull-left[
 <center>Prova de Segunda Chamada</center>
 
-Segunda-feira, **12/12**
+Segunda-feira, **25/06**
 ]
 .pull-right[
 
@@ -405,62 +306,7 @@ em que $Pi (i=1,2,3)$ é a $i$-ésima avaliação. Para MF poderá ser acrescent
 
 <br>
 
-&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 19-12-2022, que substituirá a **menor nota** entre $P1$, $P2$ e $P3.$ Em seguida, a média final será recalculada $(MFr)$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 02-07-2024, que substituirá a **menor nota** entre $P1$, $P2$ e $P3.$ Em seguida, a média final será recalculada $(MFr)$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
 
 $$NF=\min(6,MPr).$$
 Será aprovado o aluno com $NF\geq6$.
-
----
-
-# Espera-se do aluno de graduação 
-
-&#10004; Dedicado com a disciplina.
-
-
-&#10004; Base de matemática elementar.
-
-
-&#10004; Conhecimento de derivada e integral. 
-
-
-&#10004;  Questione e analise de forma racional e inteligente.
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.gif')
-```
-
----
-
-# Refletir
-
-**Eu terei tempo** para me dedicar a disciplina? 
-
-**Minha base matemática do ensino médio** é suficiente a disciplina?
-
-**Aprendi e consigo aplicar os conceitos** de Cálculo I e II?
-
-<br>
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
-knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.gif')
-```
-
----
-
-# <img src="figuras/mod.jpg"  style="width:25%">
-
-&#10004; <https://moodle.utfpr.edu.br/login/index.php>
-
-<br>
-
-&#10004; Londrina - Graduação - Engenharia Produção - 3o período
-
-<br>
-
-&#10004; Disciplina: 2022 - S2 - Probabilidade e Estatística
-
-<br>
-
-&#10004; Senha: MA13B2022S2
-
-
