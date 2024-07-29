@@ -1,0 +1,197 @@
+---
+title: "MAT013 - Probabilidade e Estatística"
+subtitle: "Apresentação da Unidade Curricular &#9749;" 
+author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
+output:
+  xaringan::moon_reader:
+    css: [default, default-fonts, meu-tema.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      comment = '',
+                      message = FALSE,
+                      warning = FALSE,
+                      cache = TRUE)
+```
+<style> 
+#caixa {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px blue;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+# Objetivo da disciplina &#127919;
+
+--
+
+<div id="caixa">
+ <div>Desenvolver uma compreensão sólida em <font color="#0066cc">Estatística</font> para aplicação nas Unidades Curriculares: <font color="#0066cc">Ciências de Dados, Controle Estatístico da Qualidade, Gestão da Manutenção e Simulação de Sistemas Discretos</font>. Visando fortalecer o raciocínio lógico, crítico e analítico necessários para interpretar situações cotidianas e estabelecer relações causais entre fenômenos.</div>
+</div>
+
+<br>
+
+.pull-left[
+Horário da Aula &#9200;
+]
+.pull-right[
+- Segunda-feira das 20:20--22:00
+
+- Terça-feira das 16:40--18:20
+]
+
+<br>
+
+--
+
+.pull-left[
+Horário de Atendimento &#9200;
+]
+.pull-right[
+- Quarta-feira das 15:50-17:30
+
+- Quinta-feira das 09:10-10:00
+]
+
+---
+
+# Conteúdo Programático
+
+&#10004; Conceitos básicos Variável aleatória e modelos de distribuição de probabilidade.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('figuras/fig4.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Conceitos básicos de inferência estatística.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('figuras/fig5.jpg')
+```
+
+---
+
+# Aulas
+
+&#10004; **Participar** da resolução dos exemplos, bem como do desenvolvimento de algum método quando for chamado.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+knitr::include_graphics('figuras/tarefa.jpg')
+```
+
+
+&#10004; **Questionar** quando tiver dúvidas.
+
+---
+
+# Lista de exercícios &#9997;
+
+Haverá listas de exercícios para serem resolvidas em casa. Resolver os problemas da lista de exercícios é uma forma de aprendizagem, pois é uma maneira de colocar em prática tudo que você leu e ouviu, e vai lhe fornecer um *feedback* sobre o que foi abordado em sala de aula.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '55%'}
+knitr::include_graphics('figuras/fig10.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Vocês são **encorajados** a resolver problemas com os outros estudantes, compartilhar e discutir ideias.
+
+--
+
+&#10004; As respostas de cada problema devem ser **resultados de seu próprio esforço**.
+
+---
+
+# Provas &#128221;
+
+Haverá três avaliações que vão cobrir o conteúdo abordado em sala de aula, as listas de exercícios e as bibliografias citadas. As soluções de cada uma das provas devem estar bem **organizadas** e **justificadas**. Desta forma, você irá demonstrar sua capacidade de comunicar os seus resultados. Se a prova estiver **difícil de compreender** devido a organização e passagens não justificadas, haverá **penalidades**.
+
+Qualquer conflito com as datas das provas devem ser comunicados na **segunda semana de aula**.
+
+<br>
+
+.pull-left[
+<center>Prova 1</center>
+
+Antes do ínicio da greve
+]
+.pull-right[
+<center>Prova 2</center>
+
+Segunda-feira, **02/09**
+]
+
+---
+
+# Prova de segunda chamada 
+
+No caso do aluno perder, **por motivo de doença ou força maior**, alguma avaliação, poderá solicitar, através de requerimento, uma única segunda chamada por avaliação, desde que no prazo determinado no Regulamento da Organização Didático-Pedagógica dos Cursos da UTFPR (Art.36 - Graduação e Art.31 - Técnico)
+
+<br>
+
+.pull-left[
+<center>Prova de Segunda Chamada</center>
+
+Segunda-feira, **03/09**
+]
+.pull-right[
+
+]
+
+<br>
+
+Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
+
+---
+
+# Critério de avaliação &#128220;
+
+Resolução 122/10-COEPP/Artigo 4:
+
+&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
+		$$MF=0,4(P1+P2)+0,25M_{AE},$$
+em que $Pi (i=1,2)$ é a $i$-ésima avaliação (no máximo 10 pontos) e $M_{AE}$ é a média de duas atividades extras (cada atividade extra terá no máximo 8 pontos). 
+
+Para MF poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
+
+---
+
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 10-09-2024, que substituirá a **menor nota** entre $P1$ e $P2.$ Em seguida, a média final será recalculada $(MFr)$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+
+$$NF=\min(6,MPr).$$
+Será aprovado o aluno com $NF\geq6$.
+
+---
+
+# Cancelamento da Unidade Curricular
+
+* Portal do aluno.
+
+* Período: 25/07 à 02/08.
+
+* Excepcionalmente o cancelamento desse período não irá contar no histórico do aluno.
+
+<br>
+
+Para maiores detalhes, veja a *live* da  **Conexão-UTFPR**
+
+<https://www.youtube.com/watch?v=LyFmfzJfADM&t=1928s>
+
