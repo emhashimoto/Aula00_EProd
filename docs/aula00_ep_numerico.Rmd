@@ -33,8 +33,6 @@ div {
 }
 </style>
 
----
-
 # Objetivo da disciplina &#127919;
 
 <div id="caixa">
@@ -252,13 +250,7 @@ Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
 
 <br>
 
-- Selecionar um tema;
-
-- Elaborar hipóteses a serem testadas;
-
-- Fazer uma amostragem dos dados;
-
-- Analisar e apresentar os resultados.
+- Aplicar um método em um problema da Engenharia de Produção.
 
 ---
 
