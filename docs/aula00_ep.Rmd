@@ -1,6 +1,6 @@
 ---
 title: "MAT013 - Probabilidade e Estatística"
-subtitle: "Apresentação da Unidade Curricular &#9749;" 
+subtitle: "Apresentação da Unidade Curricular &#10024;" 
 author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
 output:
   xaringan::moon_reader:
@@ -74,6 +74,8 @@ Horário da Aula &#9200;
 - Segunda-feira das 20:20--22:00
 
 - Terça-feira das 16:40--18:20
+
+- **Tolerância**: 5 minutos
 ]
 
 <br>
@@ -84,14 +86,14 @@ Horário da Aula &#9200;
 Horário de Atendimento &#9200;
 ]
 .pull-right[
-- Quarta-feira das 15:50-17:30
+- Segunda-feira das 17:30-19:10
 
-- Quinta-feira das 09:10-10:00
+- Terça-feira das 15:50-16:40
 ]
 
 ---
 
-# Conteúdo Programático
+# Conteúdo Programático &#128214;
 
 &#10004; Conceitos básicos de estatística descritiva
 
@@ -129,7 +131,7 @@ knitr::include_graphics('figuras/fig5.jpg')
 
 ---
 
-# Bibliografia básica
+# Bibliografia básica &#128218;
 
 &#10004; BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística básica**. 5ed. São Paulo: Saraiva, 2004. 526 p.
 
@@ -139,7 +141,7 @@ knitr::include_graphics('figuras/fig8.jpg')
 
 ---
 
-# Bibliografia básica
+# Bibliografia básica &#128218;
 
 &#10004; MONTGOMERY, Douglas C.; RUNGER, George C. **Estatística aplicada e probabilidade para engenheiros**. 4ed. Rio de Janeiro, RJ: LTC, 2009, 493 p.
 
@@ -149,7 +151,7 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Bibliografia complementar
+# Bibliografia complementar &#128218;
 
 - MORETTIN, L.G. **Estatística básica: probabilidade e inferência**, volume único. São Paulo: Pearson Prentice Hall, 2009. 375 p.
 
@@ -163,16 +165,15 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Aulas
+# Aulas &#128105;&#8205;&#127979;
 
-&#10004; **Participar** da resolução dos exemplos, bem como do desenvolvimento de algum método quando for chamado.
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
-knitr::include_graphics('figuras/tarefa.jpg')
-```
-
+&#10004; **Prestar atenção** no que está sendo copiado e no que está sendo discutido.
 
 &#10004; **Questionar** quando tiver dúvidas.
+
+```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
+knitr::include_graphics('https://media.giphy.com/media/STThOmSL9X8jpaEqfE/giphy.gif')
+```
 
 ---
 
@@ -196,14 +197,15 @@ knitr::include_graphics('figuras/fig10.jpg')
 
 ---
 
-# Reposição de Aula
-
-Em função do acompanhamento do grupo BAJA para competição a ser realizado em São José dos Campos - SP na durante 19/03 à 25/03, a seguintes aulas precisam ser repostas:
+# Complementação de carga horária
 
 .pull-left[
-&#10004; 19/03 - Terça-feira  --> 16/03 - sábado
 
-&#10004; 25/03 - Segunda-feira --> 06/04 - sábado
+&#10004; Construção de tabelas e gráficos de distribuição de frequência.
+
+&#10004; Outras distribuições de probabilidade contínuas. 
+
+&#10004; Teste de hipótese para proporção. 
 ]
 .pull-right[
 
@@ -228,20 +230,12 @@ Qualquer conflito com as datas das provas devem ser comunicados na **segunda sem
 .pull-left[
 <center>Prova 1</center>
 
-Segunda-feira, **15/04**
+Segunda-feira, **11/11/2024**
 ]
 .pull-right[
 <center>Prova 2</center>
 
-Segunda-feira, **20/05**
-]
-
-.pull-left[
-<center>Prova 3</center>
-
-Segunda-feira, **24/06**
-]
-.pull-right[
+Terça-feira, **17/12/2024**
 ]
 
 ---
@@ -255,7 +249,7 @@ No caso do aluno perder, **por motivo de doença ou força maior**, alguma avali
 .pull-left[
 <center>Prova de Segunda Chamada</center>
 
-Segunda-feira, **25/06**
+Terça-feira, **25/02/2025**
 ]
 .pull-right[
 
@@ -264,6 +258,60 @@ Segunda-feira, **25/06**
 <br>
 
 Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
+
+---
+
+# Trabalho &#128214;
+
+- Resumo expandido escrito por um grupo de no **máximo** três alunos;
+
+<br>
+
+- Selecionar um tema;
+
+- Elaborar hipóteses a serem testadas;
+
+- Fazer uma amostragem dos dados;
+
+- Analisar e apresentar os resultados.
+
+---
+
+# Critério de avaliação &#128220;
+
+Resolução 122/10-COEPP/Artigo 4:
+
+&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
+		$$MF=0,2P1+0,5P2+0,3T,$$
+em que $Pi (i=1,2)$ é a $i$-ésima avaliação e $T$ é um trabalho. 
+<br>
+
+--
+
+&#128680; O aluno com presença entre **25% à 50%**, será aprovado se $MF\geq8$.
+
+<br>
+
+--
+
+&#10004; Para $MF$ poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
+
+---
+
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda** e **sem consulta**) no dia 24-02-2025. A média final será recalculada por 
+$$MFr=\frac{MF+R}{2},$$ 
+em que $R$ é a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+
+$$NF=\min(6,MPr).$$
+Será aprovado o aluno com $NF\geq6$.
+
+<br>
+
+--
+
+&#128680; **Aviso**
+
+Bônus e pontos extras não serão considerados para o cálculo da média da prova de recuperação.
 
 ---
 
@@ -284,29 +332,66 @@ Para maiores detalhes, consulte o **regulamento disciplinar do corpo discente da
 
 ---
 
-# Não divulgar informações falsas!
-
 ```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics('https://media.giphy.com/media/3orieNLnAxzZI9CQzm/giphy.gif?cid=ecf05e47gv1g9buos2wnbph6pwbmk45fp0luz268sanoyrru&rid=giphy.gif&ct=g')
+knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif')
 ```
 
-**Faça questionamentos** sobre as informações a respeito dos tópicos da disciplina. 
 
-**Relembre** o que foi passado em sala de aula.
-
----
-
-# Critério de avaliação &#128220;
-
-Resolução 122/10-COEPP/Artigo 4:
-
-&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
-		$$MF=(P1+P2+P3)/3,$$
-em que $Pi (i=1,2,3)$ é a $i$-ésima avaliação. Para MF poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
+- Não utilizar o celular durante a aula, a menos que seja pedido;
 
 <br>
 
-&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 02-07-2024, que substituirá a **menor nota** entre $P1$, $P2$ e $P3.$ Em seguida, a média final será recalculada $(MFr)$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+--
 
-$$NF=\min(6,MPr).$$
-Será aprovado o aluno com $NF\geq6$.
+- Não dormir em aula;
+
+<br>
+
+--
+
+- Não há a necessidade de utilizar o *notebook*;
+
+<br>
+
+--
+
+- Faltas não serão removidas, a não ser que seja um erro de digitação ou participação em eventos.
+
+---
+
+# Preparação e maturidade
+
+&#128680; Incluído o pré-requisito de Matemática da variação.
+
+<br>
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXpidGpnZTF5bXRyb3N0Y2d2emV0c213NWFhcHR6anB4aW90emloeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orifd9FwNUCc0Ecxi/giphy.gif')
+```
+
+---
+
+# <img src="figuras/mod.jpg"  style="width:25%">
+
+&#10004; <https://moodle.utfpr.edu.br/login/index.php>
+
+<br>
+
+&#10004; Londrina - Graduação - Engenharia de Produção - 3o período
+
+<br>
+
+&#10004; Disciplina: 2024 - S2 - Probabilidade e Estatística
+
+<br>
+
+.pull-left[
+&#10004; Senha: MAT013
+]
+.pull-right[
+```{r , echo=FALSE, fig.align = 'left', out.width = '80%'}
+knitr::include_graphics('https://media.giphy.com/media/IoP0PvbbSWGAM/giphy.gif')
+```
+]
+
+<br>
