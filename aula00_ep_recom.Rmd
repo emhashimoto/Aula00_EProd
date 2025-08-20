@@ -1,0 +1,206 @@
+---
+title: "MAT013 - Probabilidade e Estatística"
+subtitle: "Avaliações e recomendações &#10024;" 
+author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
+output:
+  xaringan::moon_reader:
+    css: [default, default-fonts, meu-tema.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      comment = '',
+                      message = FALSE,
+                      warning = FALSE,
+                      cache = TRUE)
+```
+<style> 
+#caixa {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px blue;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+# Provas &#128221;
+
+Haverá duas avaliações que vão cobrir o conteúdo abordado em sala de aula, as listas de exercícios e as bibliografias citadas. As soluções de cada uma das provas devem estar bem **organizadas** e **justificadas**. Desta forma, você irá demonstrar sua capacidade de comunicar os seus resultados. Se a prova estiver **difícil de compreender** devido a organização e passagens não justificadas, haverá **penalidades**.
+
+<br>
+
+.pull-left[
+<center>Prova 1</center>
+
+Segunda-feira, **23/09/2025**
+]
+.pull-right[
+<center>Prova 2</center>
+
+Terça-feira, **03/11/2025**
+]
+
+---
+
+# Prova de segunda chamada 
+
+No caso do aluno perder, **por motivo de doença ou força maior**, alguma avaliação, poderá solicitar, através de requerimento, uma única segunda chamada por avaliação, desde que no prazo determinado no Regulamento da Organização Didático-Pedagógica dos Cursos da UTFPR (Art.36 - Graduação e Art.31 - Técnico)
+
+<br>
+
+.pull-left[
+<center>Prova de Segunda Chamada</center>
+
+Terça-feira, **16/12/2025**
+]
+.pull-right[
+
+]
+
+<br>
+
+Viagem a passeio **não são motivos** para segunda chamada.
+
+---
+
+# Trabalho &#128214;
+
+O trabalho será um relatório, com pontuação máxima de 10 pontos, conforme detalhado a seguir:
+
+- o relatório deverá ser elaborado em grupos compostos por 3 a 4 alunos. Cada grupo deverá identificar um problema relevante dentro de uma empresa, no qual seja viável a aplicação de um teste de hipótese.
+
+- os alunos deverão coletar ou simular dados representativos, realizar a análise estatística adequada e apresentar os resultados de forma clara, bem estruturada e tecnicamente embasada.
+
+- espera-se uma discussão crítica e fundamentada, demonstrando a compreensão dos métodos aplicados e a relevância dos achados para a tomada de decisão na empresa analisada.
+
+--
+
+**Importante**: A entrega dos relatórios será feita de acordo com o cronograma estipulado no moodle, e os prazos deverão ser rigorosamente seguidos.
+
+---
+
+# Trabalho - sugestões 💡
+
+- Controle de Qualidade
+
+- Tempo Médio de Atendimento ao Cliente
+
+- Comparação entre Turnos de Produção
+
+- Eficácia de Treinamentos
+
+- Satisfação de Clientes Internos/Externos
+
+- Defeito por Fornecedor
+
+- Comparação de Produtividade antes/depois de uma mudança
+
+---
+
+# Critério de avaliação &#128220;
+
+Resolução 122/10-COEPP/Artigo 4:
+
+&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
+		$$MF=\frac{5MN+3T}{8},$$
+em que $MN=(N1+N2)/2$ é a média de duas avaliações e $T$ é nota do trabalho.
+
+**Observação**: $N_i=P_i+Q_i (i=1,2)$, em que $P_i$ é uma prova escrita com no máximo 8,0 pontos e $Q_i$ é um quiz com no máximo 2,0 pontos.
+
+--
+
+&#10004; Para $MF$ poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos.
+
+---
+
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda** e **sem consulta**) no dia 15-12-2025. A média final será recalculada por 
+$$MFr=\frac{MF+R}{2},$$ 
+em que $R$ é a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+
+$$NF=\min(6,MPr).$$
+Será aprovado o aluno com $NF\geq6$.
+
+<br>
+
+--
+
+&#128680; **Aviso**
+
+Bônus e pontos extras não serão considerados para o cálculo da média da prova de recuperação.
+
+---
+
+# Cópia de provas (e/ou *internet*) e falsidade
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://media.giphy.com/media/SRqTQmbYdm5jgS7xH9/giphy.gif
+')
+```
+
+A desonestidade em nosso trabalho acadêmico representa uma **grave violação ética**.
+
+<br>
+
+Para maiores detalhes, consulte o **regulamento disciplinar do corpo discente da UTFPR**
+
+<https://portal.utfpr.edu.br/documentos/graduacao-e-educacao-profissional/prograd/diretrizes-e-regulamentos/gestao/regulamento-disciplinar-do-corpo-discente/view>
+
+---
+
+#Recomendações
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif')
+```
+
+
+- Não utilizar o celular durante a aula, a menos que seja pedido;
+
+--
+
+- Não há a necessidade de utilizar o *notebook*, a não ser que seja utilizado em atividades no moodle;
+
+--
+
+- Faltas não serão removidas, a não ser que seja um erro de digitação ou participação em eventos.
+
+---
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2M5aDBubmxqcnVsMHpobXZ2Yjd4N3VjbnZlOGYwNm5wOXQ2cHk3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lraXagM6W2ae23iiRC/giphy.gif')
+```
+
+- Se você faltar em uma aula, é sua responsabilidade saber o que foi discutido;
+
+--
+
+- A aula é apenas um guia. Você aprende de fato, lendo, fazendo exercícios e refletindo sobre o que foi ensinado.
+
+--
+
+- Sair da aula com a sensação de que entendeu a materia não é um indício de que você entendeu a matéria, e nem de que a matéria é fácil. Faça exercícios e leia um livro!
+
+---
+
+# Preparação e maturidade
+
+&#128680; Incluído o pré-requisito de Cálculo I.
+
+<br>
+
+&#128680; Disciplina do 3o período.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXpidGpnZTF5bXRyb3N0Y2d2emV0c213NWFhcHR6anB4aW90emloeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orifd9FwNUCc0Ecxi/giphy.gif')
+```
+
